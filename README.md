@@ -3,11 +3,10 @@
 A more organized version of the original work by Seattle Central College students -2016
 
 Original contributors:
-<li>
+<ul>
 Colin Lin, colinhx@gmail.com
-<li>
 Sicheng Zhu, szhu0007@seattlecentral.edu
-<li>
+</ul>
 Israel Santiago, neoazareth@gmail.com
 
 Rework contributors:
@@ -66,7 +65,7 @@ fully functional regardless of how useful they really are.
 
 Additional Credits to implement the notifications:
 
-Rakesh Cusat(I believe he is the Author, if not I apologize...). \n
+Rakesh Cusat(I believe he is the Author, if not I apologize...). <
 https://www.javacodegeeks.com/2012/09/android-alarmmanager-tutorial.html
 
 As well as Jonathan Hasenzahl, James Celona, Dhimitraq Jorgji. \n
