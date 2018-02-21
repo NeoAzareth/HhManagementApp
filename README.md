@@ -46,6 +46,7 @@ views.
 
 This app is available on Google Play(https://play.google.com/store/apps/details?id=com.householdmanagement&hl=en). 
 We have a web version (www.neoazareth.com/HHManageWebApp).
+
 Here is a test account if you want to try: Username: zsc@uw.edu Password: Sicheng6625
 
 Final notes:
@@ -65,18 +66,19 @@ fully functional regardless of how useful they really are.
 
 Additional Credits to implement the notifications:
 
-Rakesh Cusat(I believe he is the Author, if not I apologize...)
+Rakesh Cusat(I believe he is the Author, if not I apologize...). 
 https://www.javacodegeeks.com/2012/09/android-alarmmanager-tutorial.html
 
-As well as Jonathan Hasenzahl, James Celona, Dhimitraq Jorgji 
+As well as Jonathan Hasenzahl, James Celona, Dhimitraq Jorgji.
 https://dhimitraq.wordpress.com/2012/11/27/using-intentservice-with-alarmmanager-to-schedule-alarms/
 
-PHPMailer and all their contributors
+PHPMailer and all their contributors.
 https://github.com/PHPMailer/PHPMailer
 
-PHPExcel and all their contributors
+PHPExcel and all their contributors.
 https://github.com/PHPOffice/PHPExcel
-And SimpleTest
+
+And SimpleTest.
 http://www.simpletest.org/
 
 Additional thanks to all of those that help the community, we (or at least me) used search engines (google) to search 
