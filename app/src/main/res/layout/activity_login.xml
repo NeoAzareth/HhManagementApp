@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/login_layout">
+    
+    <LinearLayout android:orientation="vertical"
+        style="@style/layout_full">
+    
+        <ImageView
+            style="@style/layout_vertical"
+            android:layout_weight="2"
+            android:contentDescription="@string/app_logo_description"
+            android:id="@+id/logo_image"
+            android:src="@drawable/billtrack_logo"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            style="@style/layout_vertical_edit_box"
+            android:layout_weight="1"
+            android:id="@+id/email_text_field"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_hint_string"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            style="@style/layout_vertical_edit_box"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/password_text_field"
+            android:hint="@string/password_hint_string"
+            android:layout_margin="10dp"/>
+
+        <CheckBox
+            android:id="@+id/rememberEmailCheckBox"
+            android:buttonTint="@color/white"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:checked="false"
+            android:text="@string/remember_email_string"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white"
+            android:textStyle="italic" />
+
+        <Button
+            style="@style/layout_vertical_button"
+            android:layout_weight="1"
+            android:text="@string/login_button_string"
+            android:id="@+id/sign_in_button"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            style="@style/layout_vertical_text_view"
+            android:layout_weight="0.5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/new_user_string"
+            android:id="@+id/sign_up"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <TextView
+            style="@style/layout_vertical_text_view"
+            android:layout_weight="0.5"
+            android:textSize="15sp"
+            android:text="@string/forgot_password_string"
+            android:id="@+id/passResetTV"
+            android:textStyle="italic"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:focusable="true"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_full"
+    android:id="@+id/activity_admin_relative_layout">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background">
+
+        <TextView
+            style="@style/layout_vertical_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/admin_sub_header"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"/>
+
+        <TextView
+            style="@style/layout_vertical_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/admin_instructions_string"
+            android:textSize="15sp"
+            android:gravity="start"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/pink">
+
+            <TextView
+                style="@style/layout_horizontal_text_view"
+                android:gravity="start"
+                android:textStyle="bold|italic"
+                android:layout_weight="3"
+                android:text="@string/full_name_label"
+                android:textSize="15sp"/>
+            <TextView
+                style="@style/layout_horizontal_text_view"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/user_status_label"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"/>
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/member_records_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+
+        <View
+            style="@style/style_record_horizontal_separator"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            />
+
+        <Button
+            style="@style/layout_vertical_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:id="@+id/admin_change_rent_button"
+            android:text="@string/admin_change_button_string"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+</RelativeLayout>

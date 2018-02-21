@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_full"
+    android:id="@+id/overview_relative_layout">
+
+    <ScrollView
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/layout_full"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        android:fillViewport="false">
+
+        <LinearLayout
+            style="@style/layout_full"
+            android:orientation="vertical"
+            tools:context=".controller.OverviewActivity">
+
+            <TextView
+                style="@style/layout_vertical_text_view"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/greeting_string"
+                android:textStyle="bold"
+                android:id="@+id/greetUserTextView"
+                android:layout_gravity="center_horizontal"
+                android:gravity="start"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                style="@style/layout_vertical_text_view"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/welcome_message_string"
+                android:textStyle="bold"
+                android:id="@+id/householdNameTextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:gravity="start"
+                />
+
+            <TextView
+                style="@style/layout_vertical_text_view"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/rent_amount_message_string"
+                android:textStyle="bold"
+                android:id="@+id/houseHoldRentTextView"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:gravity="start"
+                />
+
+            <TextView
+                style="@style/layout_vertical_text_view"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/my_bills_sub_header"
+                android:id="@+id/textView4"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_margin="10dp"
+                />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/myBillsTableLayout"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <View
+                    style="@style/style_record_horizontal_separator"
+                    />
+
+                <TableRow
+                    android:id="@+id/labelsTableRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/pink"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/descLabel"
+                        style="@style/style_bill_labels"
+                        android:layout_weight="2"
+                        android:text="@string/description_label" />
+
+                    <TextView
+                        android:id="@+id/amountLabel"
+                        style="@style/style_bill_labels"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/amount_label" />
+
+                    <TextView
+                        android:id="@+id/categoryLabel"
+                        style="@style/style_bill_labels"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="@string/category_label" />
+                </TableRow>
+
+                <View
+                    style="@style/style_record_horizontal_separator"
+                    />
+            </TableLayout>
+
+            <TextView
+                style="@style/layout_vertical_text_view"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/members_status_sub_header"
+                android:id="@+id/textView5"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:gravity="center_horizontal"
+                android:layout_height="0dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/membersStatusTableLayout"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <View
+                    style="@style/style_record_horizontal_separator"
+                    />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/labelsMemberStatusTR"
+                    android:background="@color/pink">
+
+                    <TextView
+                        style="@style/style_bill_labels"
+                        android:text="@string/full_name_label"
+                        android:id="@+id/fullNameLabel"
+                        android:layout_weight="2"
+                        />
+
+                    <TextView
+                        style="@style/style_bill_labels"
+                        android:text="@string/user_level_label"
+                        android:id="@+id/userLevelLabel"
+                        android:layout_weight="1"
+                        />
+
+                    <TextView
+                        style="@style/style_bill_labels"
+                        android:text="@string/user_status_label"
+                        android:id="@+id/userStatusLabel"
+                        android:layout_weight="1"
+                        />
+                </TableRow>
+
+                <View
+                    style="@style/style_record_horizontal_separator"
+                    />
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

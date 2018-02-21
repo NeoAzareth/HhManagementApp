@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/settings_relative_layout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        style="@style/layout_full">
+
+        <ImageView
+            style="@style/layout_vertical"
+            android:contentDescription="@string/app_logo_description"
+            android:layout_weight="2"
+            android:id="@+id/manageBillsImageView"
+            android:src="@drawable/billtrack_logo"
+            android:layout_margin="10dp" />
+
+        <Button
+            style="@style/layout_vertical_button"
+            android:id="@+id/settings_change_password_button"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:text="@string/change_pass_button_string"
+            android:textSize="25sp"/>
+
+        <TextView
+            style="@style/style_separator_in_list"
+            />
+
+
+        <Button
+            style="@style/layout_vertical_button"
+            android:text="@string/delete_household_button_string"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:id="@+id/settings_delete_or_leave_button"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

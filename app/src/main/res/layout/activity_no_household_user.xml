@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_full"
+    android:id="@+id/new_user_selection_rlayout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            style="@style/layout_vertical"
+            android:contentDescription="@string/app_logo_description"
+            android:layout_weight="2"
+            android:id="@+id/imageView"
+            android:src="@drawable/billtrack_logo"
+            android:layout_margin="10dp" />
+
+        <TextView
+            style="@style/layout_vertical_text_view"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/no_household_greeting_string"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/selectActivityGreeting" />
+
+        <Button
+            style="@style/layout_vertical_button"
+            android:layout_weight="1"
+            android:text="@string/create_household_button_string"
+            android:id="@+id/create_a_household_button"
+            android:gravity="center"
+            android:layout_marginLeft ="10dp"
+            android:layout_marginRight ="10dp"/>
+
+        <TextView
+            style="@style/style_separator_in_list"
+            android:id="@+id/separator_one"/>
+
+        <Button
+            style="@style/layout_vertical_button"
+            android:layout_weight="1"
+            android:text="@string/join_a_household_button_string"
+            android:id="@+id/join_a_household_button"
+            android:gravity="center"
+            android:layout_marginLeft ="10dp"
+            android:layout_marginRight ="10dp"/>
+
+        <TextView
+            style="@style/style_separator_in_list"
+            android:id="@+id/separator_two"/>
+
+    </LinearLayout>
+</RelativeLayout>

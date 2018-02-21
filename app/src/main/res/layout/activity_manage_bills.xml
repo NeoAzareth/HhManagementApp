@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_full"
+    android:id="@+id/manage_bills_relative_layout">
+    <ScrollView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        style="@style/layout_full"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            tools:context=".view.ManageBillActivity"
+            style="@style/layout_full">
+
+            <ImageView
+                style="@style/layout_vertical"
+                android:contentDescription="@string/app_logo_description"
+                android:layout_weight="2"
+                android:id="@+id/manageBillsImageView"
+                android:src="@drawable/billtrack_logo"
+                android:layout_margin="10dp" />
+
+            <TextView
+                style="@style/layout_vertical_text_view"
+                android:layout_height="wrap_content"
+                android:text="@string/my_bills_sub_header"
+                android:id="@+id/manage_bills_title_text_view"
+                android:layout_gravity="center_horizontal"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp" />
+
+            <TextView
+                style="@style/layout_vertical_text_view"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:text="@string/touch_instructions_string"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:id="@+id/manage_bills_info_text_view" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/manageBillsTableLayout"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <View
+                    style="@style/style_record_horizontal_separator"
+                    />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/myBillsLabels"
+                    android:background="@color/pink">
+
+                    <TextView
+                        style="@style/style_bill_labels"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/description_label"
+                        android:id="@+id/descLabel"
+                        android:layout_weight="2"
+                        android:textStyle="bold|italic"
+                        android:padding="5dp"/>
+
+                    <TextView
+                        style="@style/style_bill_labels"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/amount_label"
+                        android:id="@+id/amountLabel"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:padding="5dp"
+                        android:gravity="end"/>
+
+                    <TextView
+                        style="@style/style_bill_labels"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/category_label"
+                        android:id="@+id/categoryLabel"
+                        android:layout_weight="1"
+                        android:textStyle="bold|italic"
+                        android:padding="5dp"
+                        android:gravity="end"/>
+                </TableRow>
+
+                <View
+                    style="@style/style_record_horizontal_separator"
+                    />
+            </TableLayout>
+
+            <Button
+                style="@style/layout_vertical_button"
+                android:layout_weight="1"
+                android:text="@string/add_bills_button_string"
+                android:id="@+id/add_bill_button"
+                android:gravity="center"
+                android:layout_margin="10dp" />
+
+            <TextView
+                style="@style/style_separator_in_list"
+                android:id="@+id/separator_three"/>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp">
+                <TextView
+                    style="@style/layout_vertical_text_view"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textStyle="italic|bold"
+                    android:textSize="16sp"
+                    android:text="@string/done_adding_bills_string"
+                    android:id="@+id/doneTextView" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textAlignment="center"
+                    android:text="@string/done_adding_bills_button_string"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimaryDark"
+                    android:id="@+id/doneButton"
+                    android:layout_weight="2" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/style_separator_in_list"
+                android:id="@+id/separator_four"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

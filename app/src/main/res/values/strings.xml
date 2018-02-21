@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">BillTrack</string>
+
+    <!--menu-->
+    <string name="overview_menu_item">Overview</string>
+    <string name="manage_bills_menu_item">Manage Bills</string>
+    <string name="report_menu_item">Report</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="admin_menu_item">Admin</string>
+    <string name="instruction_menu_item">Instruction</string>
+    <string name="log_out_menu_item">Log Out</string>
+
+    <!--Login-->
+    <string name="app_logo_description">BillTrack App Logo</string>
+    <string name="email_hint_string">Enter your Email</string>
+    <string name="password_hint_string">Enter your Password</string>
+    <string name="remember_email_string">Remember Email?</string>
+    <string name="login_button_string">Login</string>
+    <string name="new_user_string">I am a new User!</string>
+    <string name="forgot_password_string">I forgot my password&#8230;</string>
+
+    <!---Registration-->
+    <string name="instruction_label">Enter your info:</string>
+    <string name="first_name_string">First name</string>
+    <string name="last_name_string">Last name</string>
+    <string name="email_string">Email</string>
+    <string name="password_string">Password</string>
+    <string name="confirm_password_string">Confirm Password</string>
+    <string name="register_button_string">Register me!</string>
+
+    <!--no household *includes the ones used by java code-->
+    <string name="no_household_greeting_string">Welcome user. \n
+    Choose from the two options below.</string>
+    <string name="create_household_button_string">Create a household</string>
+    <string name="join_a_household_button_string">Join a household</string>
+    <string name="pending_status_string">You are currently pending to join </string>
+    <string name="pending_button_string">Check if I have been allowed</string>
+    <string name="cancel_button_string">Cancel</string>
+
+    <!--overview-->
+    <string name="greeting_string">Hello User!</string>
+    <string name="welcome_message_string">Welcome to your household overview page.</string>
+    <string name="rent_amount_message_string">Rent as of&#8230;</string>
+    <string name="my_bills_sub_header">My bills</string>
+    <string name="description_label">Description</string>
+    <string name="amount_label">Amount</string>
+    <string name="category_label">Category</string>
+    <string name="members_status_sub_header">Member\'s status</string>
+    <string name="full_name_label">Name</string>
+    <string name="user_level_label">Level</string>
+    <string name="user_status_label">Status</string>
+    <string name="no_members_string">No other members here&#8230;</string>
+    <string name="no_bills_string">No bills this month&#8230;</string>
+
+    <!--Manage bills-->
+    <string name="touch_instructions_string">Touch a bill for more options!</string>
+    <string name="add_bills_button_string">Add Bills</string>
+    <string name="done_adding_bills_string">Done adding your bills?</string>
+    <string name="done_adding_bills_button_string">Yes I\'m done</string>
+    <string name="done_status_info_string">You have changed your status to done&#8230; \n
+    Contact you household admin to reset it.</string>
+
+    <!--Reports -includes string related to the list view and report record-->
+    <string name="report_instructions_string">Customize your report:</string>
+    <string name="by_member_string">By member</string>
+    <string name="by_category_string">By category</string>
+    <string name="by_month_string">By month</string>
+    <string name="generate_report_button_string">Generate Report</string>
+    <string name="report_results_string">Here is your report:</string>
+    <string name="report_total_string">Total: </string>
+    <string name="record_amount_placeholder">$000.00</string>
+    <string name="record_category_placeholder">Maintenance</string>
+    <string name="record_name_placeholder">By Very very long name</string>
+    <string name="record_date_placeholder">On bill date</string>
+
+    <!--settings -->
+
+    <string name="change_pass_button_string">Change your password</string>
+    <string name="delete_household_button_string">Delete current household</string>
+    <string name="leave_household_button_string">Leave current household</string>
+
+    <!--admin-->
+    <string name="admin_sub_header">Manage Members</string>
+    <string name="admin_instructions_string">Touch a member from the list for more options.
+    </string>
+    <string name="admin_change_button_string">Change Household rent amount"</string>
+
+
+    <!--Spinners array*****************************************************-->
+
+    <!--category arrays-->
+    <string-array name="categoryArray">
+        <item>Category</item>
+        <item>Food</item>
+        <item>Utility</item>
+        <item>Maintenance</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--member spinner-->
+    <string-array name="memberArr">
+        <item>All</item>
+    </string-array>
+
+    <!--all category spinner-->
+    <string-array name="allCategoryArr">
+        <item>All</item>
+        <item>Food</item>
+        <item>Utility</item>
+        <item>Maintenance</item>
+        <item>Other</item>
+    </string-array>
+
+    <!--month spinner-->
+    <string-array name="monthArr">
+        <item></item>
+    </string-array>
+
+</resources>

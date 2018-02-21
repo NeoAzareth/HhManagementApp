@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="layout_full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="layout_full_horizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+
+    </style>
+
+    <!-- vertical layout styles-->
+    <style name="layout_vertical" parent="layout_full">
+        <item name="android:layout_height">0px</item>
+    </style>
+
+    <style name="layout_vertical_edit_box" parent="layout_vertical">
+        <item name="android:background">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/background</item>
+    </style>
+
+    <style name="layout_vertical_button" parent="layout_vertical">
+        <item name="android:background">@color/purple</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="layout_vertical_text_view" parent="layout_vertical">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- horizontal layout styles-->
+    <style name="layout_horizontal" parent="layout_full_horizontal">
+        <item name="android:layout_width">0px</item>
+    </style>
+
+    <style name="layout_horizontal_button" parent="layout_horizontal">
+        <item name="android:background">@color/purple</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="layout_horizontal_text_view" parent="layout_horizontal">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+
+    <style name="layout_horizontal_spinner" parent="layout_horizontal">
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="style_record_horizontal_separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/darkPurple</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <!-- labels for the tables -->
+    <style name="style_bill_labels">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--list separator-->
+    <style name="style_separator_in_list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/darkPurple</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="style_table_elements">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_full"
+    android:id="@+id/registration_relative_layout">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/layout_vertical_text_view"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/instruction_label"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp" />
+
+        <EditText
+            style="@style/layout_vertical_edit_box"
+            android:layout_weight="1"
+            android:id="@+id/first_name_edit_view"
+            android:layout_gravity="center_horizontal"
+            android:inputType="text"
+            android:hint="@string/first_name_string"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            style="@style/layout_vertical_edit_box"
+            android:layout_weight="1"
+            android:id="@+id/last_name_edit_view"
+            android:inputType="text"
+            android:hint="@string/last_name_string"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            style="@style/layout_vertical_edit_box"
+            android:layout_weight="1"
+            android:id="@+id/email_registration_edit_view"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_string"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            style="@style/layout_vertical_edit_box"
+            android:layout_weight="1"
+            android:id="@+id/pasword_registration_edit_view"
+            android:inputType="textPassword"
+            android:hint="@string/password_string"
+            android:layout_margin="10dp"/>
+
+        <EditText
+            style="@style/layout_vertical_edit_box"
+            android:layout_weight="1"
+            android:id="@+id/confirm_password_registration_edit_view"
+            android:inputType="textPassword"
+            android:hint="@string/confirm_password_string"
+            android:layout_margin="10dp"/>
+
+        <Button
+            style="@style/layout_vertical_button"
+            android:text="Register me!"
+            android:id="@+id/registration_button"
+            android:layout_weight="1"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

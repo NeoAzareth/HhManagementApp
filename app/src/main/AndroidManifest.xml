@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.IsraelSantiago.HhManagementApp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.IsraelSantiago.HhManagementApp.controller.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.IsraelSantiago.HhManagementApp.controller.RegistrationActivity"
+            android:label="Registration"/>
+        <activity android:name="com.IsraelSantiago.HhManagementApp.controller.OverviewActivity"
+            android:label="Overview"/>
+        <activity android:name="com.IsraelSantiago.HhManagementApp.controller.NoHouseholdActivity"
+        android:label="No Household..."/>
+        <activity android:name="com.IsraelSantiago.HhManagementApp.controller.ManageBillsActivity"
+            android:label="Manage Bills"/>
+        <activity android:name="com.IsraelSantiago.HhManagementApp.controller.ReportActivity"
+            android:label="Reports"/>
+        <activity android:name="com.IsraelSantiago.HhManagementApp.controller.SettingsActivity"
+            android:label="Settings"/>
+        <activity android:name="com.IsraelSantiago.HhManagementApp.controller.AdminActivity"
+            android:label="Admin"/>
+
+        <service android:name="com.IsraelSantiago.HhManagementApp.model.ReminderService"/>
+
+        <receiver android:name="com.IsraelSantiago.HhManagementApp.model.AlarmManagerBroadcastReceiver"/>
+        <receiver android:name="com.IsraelSantiago.HhManagementApp.model.AutoStart">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+</manifest>

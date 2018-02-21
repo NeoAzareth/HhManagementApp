@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/report_relative_layout">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        style="@style/layout_full">
+
+        <TextView
+            style="@style/layout_vertical_text_view"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/report_instructions_string"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            />
+
+        <!--By member-->
+        <LinearLayout
+            style="@style/layout_vertical"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/first_name_text_view"
+                style="@style/layout_horizontal_text_view"
+                android:layout_width="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingStart="5dp"
+                android:background="@color/background"
+                android:gravity="center_vertical"
+                android:text="@string/by_member_string"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textStyle="bold" />
+
+            <Spinner
+
+                android:id="@+id/report_member_spinner"
+                style="@style/layout_horizontal_spinner"
+                android:entries="@array/memberArr" />
+        </LinearLayout>
+
+        <!--By category-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            style="@style/layout_vertical"
+            android:background="@color/white"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                style="@style/layout_horizontal_text_view"
+                android:layout_width="wrap_content"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:background="@color/background"
+                android:text="@string/by_category_string"
+                android:textStyle="bold"
+                android:id="@+id/last_name_text_view" />
+
+            <Spinner
+                style="@style/layout_horizontal_spinner"
+                android:id="@+id/report_category_spinner"
+                android:entries="@array/allCategoryArr"
+                />
+        </LinearLayout>
+
+        <!--By month-->
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            style="@style/layout_vertical"
+            android:background="@color/white"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                style="@style/layout_horizontal_text_view"
+                android:layout_width="wrap_content"
+                android:paddingEnd="23dp"
+                android:paddingStart="5dp"
+                android:gravity="center_vertical"
+                android:background="@color/background"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/by_month_string"
+                android:textStyle="bold"
+                android:id="@+id/email_text_view" />
+
+            <Spinner
+                style="@style/layout_horizontal_spinner"
+                android:id="@+id/report_month_spinner"
+                android:entries="@array/monthArr"
+                />
+        </LinearLayout>
+
+        <Button
+            style="@style/layout_vertical_button"
+            android:text="@string/generate_report_button_string"
+            android:id="@+id/go_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

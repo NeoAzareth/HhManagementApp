@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <TextView
+        style="@style/layout_vertical_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:id="@+id/report_result_text_view"
+        android:text="@string/report_results_string"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@color/pink">
+
+        <TextView
+            style="@style/layout_horizontal_text_view"
+            android:gravity="start"
+            android:textStyle="bold|italic"
+            android:layout_weight="4"
+            android:text="@string/description_label"
+            android:textSize="17sp"/>
+        <TextView
+            style="@style/layout_horizontal_text_view"
+            android:layout_weight="3"
+            android:gravity="end"
+            android:text="@string/amount_label"
+            android:paddingEnd="5dp"
+            android:paddingStart="0dp"
+            android:textSize="17sp"
+            android:textStyle="bold|italic"/>
+        <TextView
+            style="@style/layout_horizontal_text_view"
+            android:layout_weight="4"
+            android:gravity="end"
+            android:text="@string/category_label"
+            android:paddingEnd="5dp"
+            android:paddingStart="0dp"
+            android:textStyle="bold|italic"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/records_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        style="@style/layout_vertical_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:id="@+id/report_total_text_view"
+        android:text="@string/report_total_string"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:textStyle="bold"/>
+
+</LinearLayout>
