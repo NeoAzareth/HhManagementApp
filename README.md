@@ -3,10 +3,11 @@
 A more organized version of the original work by Seattle Central College students -2016
 
 Original contributors:
-<ul>
+<li>
 Colin Lin, colinhx@gmail.com
+<li>
 Sicheng Zhu, szhu0007@seattlecentral.edu
-</ul>
+<li>
 Israel Santiago, neoazareth@gmail.com
 
 Rework contributors:
@@ -15,12 +16,12 @@ Sicheng Zhu, szhu0007@seattlecentral.edu
 <li>
 Israel Santiago, neoazareth@gmail.com
 
-GitHub link to previous version:
+GitHub link to previous version:<br>
 https://github.com/sicheng-zhu/HouseholdManagement
 
-Android App translation of “original” project by Israel Santiago's Household Management Web App -2015
-Link to deployed application https://neoazareth.com/HHManageWebApp/index.php
-GitHub repository coming soon...
+Android App translation of “original” project by Israel Santiago's Household Management Web App -2015 <br>
+Link to deployed application https://neoazareth.com/HHManageWebApp/index.php <br>
+GitHub repository coming soon... 
 
 As the previous version README.md especifies, the intention of the app is to allow user to manage their expenses 
 and produce a spreadsheet with all the bills associated with the current month.
@@ -44,8 +45,7 @@ Neither the Web App nor the Android app longer supports mobile numbers. The rewo
 views.
 
 This app is available on Google Play(https://play.google.com/store/apps/details?id=com.householdmanagement&hl=en). 
-We have a web version (www.neoazareth.com/HHManageWebApp).
-
+<br>
 Here is a test account if you want to try: Username: zsc@uw.edu Password: Sicheng6625
 
 Final notes:
