@@ -65,19 +65,19 @@ fully functional regardless of how useful they really are.
 
 Additional Credits to implement the notifications:
 
-Rakesh Cusat(I believe he is the Author, if not I apologize...). <
+Rakesh Cusat(I believe he is the Author, if not I apologize...). <br>
 https://www.javacodegeeks.com/2012/09/android-alarmmanager-tutorial.html
 
-As well as Jonathan Hasenzahl, James Celona, Dhimitraq Jorgji. \n
+As well as Jonathan Hasenzahl, James Celona, Dhimitraq Jorgji. <br>
 https://dhimitraq.wordpress.com/2012/11/27/using-intentservice-with-alarmmanager-to-schedule-alarms/
 
-PHPMailer and all their contributors. \n
+PHPMailer and all their contributors. <br>
 https://github.com/PHPMailer/PHPMailer
 
-PHPExcel and all their contributors. \n
+PHPExcel and all their contributors. <br>
 https://github.com/PHPOffice/PHPExcel
 
-And SimpleTest. \n
+And SimpleTest. <br>
 http://www.simpletest.org/
 
 Additional thanks to all of those that help the community, we (or at least me) used search engines (google) to search 
