@@ -1,4 +1,4 @@
-HouseholdManagement / BillTrack
+# HouseholdManagement / BillTrack
 
 A more organized version of the original work by Seattle Central College students -2016
 
@@ -14,7 +14,7 @@ Sicheng Zhu, szhu0007@seattlecentral.edu
 GitHub link to previous version:
 https://github.com/sicheng-zhu/HouseholdManagement
 
-Android App translation of ìoriginalî project by Israel Santiago's Household Management Web App -2015
+Android App translation of ‚Äúoriginal‚Äù project by Israel Santiago's Household Management Web App -2015
 Link to deployed application https://neoazareth.com/HHManageWebApp/index.php
 GitHub repository coming soon...
 
@@ -25,13 +25,13 @@ Key features:
 
 User registration - only available through the Android app.
 Create a household -creator becomes the Admin of such household; or Join an existing household -user becomes a member.
-Provides an overview of the household status -current bills and other userís status.
+Provides an overview of the household status -current bills and other user‚Äôs status.
 Allows users to add, edit or delete current month bills.
 Create customized reports based on user, category and date (this version provides a list of only dates which have 
 bills associated with them).
 Allows users to change their password within the app and leave/delete their current household.
 Admin of household has the authority to manage other members or update the household rent.
-Password retrieval through userís email. 
+Password retrieval through user‚Äôs email. 
 Notifies the user when a new months has begun and prompts them to add their bills
 Creates and emails all the users of a household a spreadsheet with the household report once all the users are done 
 adding bills.
