@@ -7,11 +7,14 @@ Original contributors:
 Colin Lin, colinhx@gmail.com
 <li>
 Sicheng Zhu, szhu0007@seattlecentral.edu
+<li>
 Israel Santiago, neoazareth@gmail.com
 
 Rework contributors:
+<li>
 Sicheng Zhu, szhu0007@seattlecentral.edu
-	Israel Santiago, neoazareth@gmail.com
+<li>
+Israel Santiago, neoazareth@gmail.com
 
 GitHub link to previous version:
 https://github.com/sicheng-zhu/HouseholdManagement
