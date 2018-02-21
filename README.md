@@ -3,10 +3,11 @@
 A more organized version of the original work by Seattle Central College students -2016
 
 Original contributors:
+<li>
 	Colin Lin, colinhx@gmail.com
 	Sicheng Zhu, szhu0007@seattlecentral.edu
 	Israel Santiago, neoazareth@gmail.com
-
+</li>
 Rework contributors:
 Sicheng Zhu, szhu0007@seattlecentral.edu
 	Israel Santiago, neoazareth@gmail.com
