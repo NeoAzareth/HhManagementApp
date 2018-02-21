@@ -5,9 +5,10 @@ A more organized version of the original work by Seattle Central College student
 Original contributors:
 <li>
 Colin Lin, colinhx@gmail.com
+<li>
 Sicheng Zhu, szhu0007@seattlecentral.edu
 Israel Santiago, neoazareth@gmail.com
-</li>
+
 Rework contributors:
 Sicheng Zhu, szhu0007@seattlecentral.edu
 	Israel Santiago, neoazareth@gmail.com
