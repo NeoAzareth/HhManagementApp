@@ -329,7 +329,7 @@ public class Utilities {
 
         String error = ErrorHandler.handleResult(result);
 
-        return error.equals("none") && error.equals("true");
+        return error.equals("none") && result.equals("true");
     }
 
     /***
