@@ -1,46 +1,51 @@
-HouseholdManagement / BillTrack
+# HouseholdManagement / BillTrack
 
 A more organized version of the original work by Seattle Central College students -2016
 
 Original contributors:
-	Colin Lin, colinhx@gmail.com
-	Sicheng Zhu, szhu0007@seattlecentral.edu
-	Israel Santiago, neoazareth@gmail.com
+<li>
+Colin Lin, colinhx@gmail.com
+<li>
+Sicheng Zhu, szhu0007@seattlecentral.edu
+<li>
+Israel Santiago, neoazareth@gmail.com
 
 Rework contributors:
+<li>
 Sicheng Zhu, szhu0007@seattlecentral.edu
-	Israel Santiago, neoazareth@gmail.com
+<li>
+Israel Santiago, neoazareth@gmail.com
 
-GitHub link to previous version:
+GitHub link to previous version:<br>
 https://github.com/sicheng-zhu/HouseholdManagement
 
-Android App translation of ìoriginalî project by Israel Santiago's Household Management Web App -2015
-Link to deployed application https://neoazareth.com/HHManageWebApp/index.php
-GitHub repository coming soon...
+Android App translation of ‚Äúoriginal‚Äù project by Israel Santiago's Household Management Web App -2015 <br>
+Link to deployed application https://neoazareth.com/HHManageWebApp/index.php <br>
+GitHub repository coming soon... 
 
 As the previous version README.md especifies, the intention of the app is to allow user to manage their expenses 
 and produce a spreadsheet with all the bills associated with the current month.
 
 Key features:
 
-User registration - only available through the Android app.
-Create a household -creator becomes the Admin of such household; or Join an existing household -user becomes a member.
-Provides an overview of the household status -current bills and other userís status.
-Allows users to add, edit or delete current month bills.
-Create customized reports based on user, category and date (this version provides a list of only dates which have 
+1. User registration - only available through the Android app.
+2. Create a household -creator becomes the Admin of such household; or Join an existing household -user becomes a member.
+3. Provides an overview of the household status -current bills and other user‚Äôs status.
+4. Allows users to add, edit or delete current month bills.
+5. Create customized reports based on user, category and date (this version provides a list of only dates which have 
 bills associated with them).
-Allows users to change their password within the app and leave/delete their current household.
-Admin of household has the authority to manage other members or update the household rent.
-Password retrieval through userís email. 
-Notifies the user when a new months has begun and prompts them to add their bills
-Creates and emails all the users of a household a spreadsheet with the household report once all the users are done 
+6. Allows users to change their password within the app and leave/delete their current household.
+7. Admin of household has the authority to manage other members or update the household rent.
+8. Password retrieval through user‚Äôs email. 
+9. Notifies the user when a new months has begun and prompts them to add their bills
+10. Creates and emails all the users of a household a spreadsheet with the household report once all the users are done 
 adding bills.
 
 Neither the Web App nor the Android app longer supports mobile numbers. The rework does not allow for landscape 
 views.
 
 This app is available on Google Play(https://play.google.com/store/apps/details?id=com.householdmanagement&hl=en). 
-We have a web version (www.neoazareth.com/HHManageWebApp).
+<br>
 Here is a test account if you want to try: Username: zsc@uw.edu Password: Sicheng6625
 
 Final notes:
@@ -60,18 +65,19 @@ fully functional regardless of how useful they really are.
 
 Additional Credits to implement the notifications:
 
-Rakesh Cusat(I believe he is the Author, if not I apologize...)
+Rakesh Cusat(I believe he is the Author, if not I apologize...). <br>
 https://www.javacodegeeks.com/2012/09/android-alarmmanager-tutorial.html
 
-As well as Jonathan Hasenzahl, James Celona, Dhimitraq Jorgji 
+As well as Jonathan Hasenzahl, James Celona, Dhimitraq Jorgji. <br>
 https://dhimitraq.wordpress.com/2012/11/27/using-intentservice-with-alarmmanager-to-schedule-alarms/
 
-PHPMailer and all their contributors
+PHPMailer and all their contributors. <br>
 https://github.com/PHPMailer/PHPMailer
 
-PHPExcel and all their contributors
+PHPExcel and all their contributors. <br>
 https://github.com/PHPOffice/PHPExcel
-And SimpleTest
+
+And SimpleTest. <br>
 http://www.simpletest.org/
 
 Additional thanks to all of those that help the community, we (or at least me) used search engines (google) to search 
