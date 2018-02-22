@@ -19,9 +19,12 @@ Israel Santiago, neoazareth@gmail.com
 GitHub link to previous version:<br>
 https://github.com/sicheng-zhu/HouseholdManagement
 
+Server side scripts at: <br>
+https://github.com/NeoAzareth/HHManagementWebApp/tree/master/MobileApp
+
 Android App translation of “original” project by Israel Santiago's Household Management Web App -2015 <br>
 Link to deployed application https://neoazareth.com/HHManageWebApp/index.php <br>
-GitHub repository coming soon... 
+GitHub repository https://github.com/NeoAzareth/HHManagementWebApp
 
 As the previous version README.md especifies, the intention of the app is to allow user to manage their expenses 
 and produce a spreadsheet with all the bills associated with the current month.
