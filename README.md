@@ -66,7 +66,7 @@ auto resets to allow user to add expenses to the next period. That being said, t
 collaboration as well as dealing with issues that may arise from such collaboration. All aspects of the application are 
 fully functional regardless of how useful they really are.
 
-Additional Credits to implement the notifications:
+Additional Credits to:
 
 Rakesh Cusat(I believe he is the Author, if not I apologize...). <br>
 https://www.javacodegeeks.com/2012/09/android-alarmmanager-tutorial.html
